@@ -11,9 +11,9 @@ go-google-drive-cli --help
 *  -service-keys="": Service Keys File - Check https://developers.google.com/identity/protocols/OAuth2ServiceAccount
 
 ## Functions
-*l	 Listing Files
-*u	 Upload File
-*g	 (Get) Download File
-*d	 Delete File
-*q	 Quit
-*h	 Help
+* l	 Listing Files
+* u	 Upload File
+* g	 (Get) Download File
+* d	 Delete File
+* q	 Quit
+* h	 Help
