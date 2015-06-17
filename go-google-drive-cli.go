@@ -9,7 +9,7 @@ import (
 	"golang.org/x/oauth2/google"
 	"io"
 	"io/ioutil"
-	"net/http"
+	//"net/http"
 	"os"
 	"path/filepath"
 )
@@ -134,7 +134,7 @@ MAIN_LOOP:
 			defer out.Close()
 
 			downloadUrl := f.DownloadUrl
-			resp, err := http.Get(downloadUrl)
+			resp, err := client.Get(downloadUrl)
 			if err != nil {
 				panic(err)
 			}
